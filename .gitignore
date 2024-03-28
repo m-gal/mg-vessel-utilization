@@ -1,0 +1,14 @@
+__pycache__/
+.idea/
+.spyproject/
+*.ssmssln
+*.ssmssqlproj
+
+data/analyze/
+mlflow/mlruns/
+temp/
+trash/
+
+vutilize/checks/test.file
+!vutilize/data
+!vutilize/model

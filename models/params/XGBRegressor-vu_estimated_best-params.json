@@ -1,0 +1,1 @@
+{"gamma": 0.0, "learning_rate": 0.38170650938945144, "max_depth": 8, "min_child_weight": 10, "n_estimators": 3000, "reg_alpha": 0.0, "reg_lambda": 8.82751888385441, "subsample": 1.0, "n_iter": 50, "n_splits": 5}

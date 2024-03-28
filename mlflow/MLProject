@@ -1,0 +1,15 @@
+name: ft-vessel-utilization
+
+conda_env: conda.yaml
+
+# MLproject files cannot specify both a Conda env and a Docker environments.
+# Can have a docker_env instead of a conda_env, e.g.
+# docker_env:
+#    image:  mlflow-docker-example
+
+entry_points:
+  server:
+    command: "mlflow_run_local_server.sh"
+
+  check:
+    command: "python ../vessel_utilize/checks/check_one_off_prediction.py"

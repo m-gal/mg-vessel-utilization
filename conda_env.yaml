@@ -1,0 +1,24 @@
+name: mg-vutilize
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - dataprep
+  - fastapi
+  - ipykernel
+  - matplotlib
+  - numpy=1.21.2
+  - pandas
+  - pandas-profiling
+  - pip
+  - python
+  - scikit-learn=0.24.2
+  - scikit-optimize=0.8.1
+  - scipy
+  - seaborn
+  - sweetviz
+  - uvicorn
+  - yellowbrick
+  - pip:
+    - mlflow
+    - xgboost
