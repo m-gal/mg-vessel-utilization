@@ -21,7 +21,7 @@ from IPython.display import display
 # %% Load project stuff
 sys.path.extend([".", "./.", "././.", "../..", "../../.."])
 dir = Path("d:/fishtailS3/ls-aishub-inflated/shipdb")
-# dir = Path("d:/fishtail/projects/ft-vessel-utilization/data/processed")
+# dir = Path("d:/dprojects/mgal-for-github/mg-vessel-utilization/data/processed")
 
 # Load project configu
 from vutilize.config import reports_dir

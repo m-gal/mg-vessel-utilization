@@ -213,6 +213,6 @@ html:
   # Styling options for the HTML report
   style:
     theme: "united" # None,"flatly"
-    logo: "https://uploads-ssl.webflow.com/6031204e6de1f7b244260bca/604412030062266b5111efc0_fishtail-horiz-nopad.png"
+    logo: ""
     primary_color: "#337ab7"
     full_width: False

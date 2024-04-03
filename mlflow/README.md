@@ -19,7 +19,7 @@ you must to start MLflow Tracking Server locally:
 1. Open in Integrated Terminal in the **[./mlflow]** and run Tracking Server:
     * `>mlflow server --backend-store-uri sqlite:///mlregistry.db
     --default-artifact-root smb://{PATH-TO-ROOT-PROJECT-FOLDER}/mlflow/mlruns`
-    ###### *for example, you should change the absolute path like: `file://d:/fishtail/projects/ft-vessel-utilization/mlflow/mlruns`*
+    ###### *for example, you should change the absolute path like: `file://d:/dprojects/mgal-for-github/mg-vessel-utilization/mlflow/mlruns`*
 
     or run the following:
     * `>mlflow_run_local_server.sh`
